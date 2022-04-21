@@ -1,0 +1,26 @@
+.header .logo {
+    margin-right: 94px;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+
+
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+
+.logo-header {
+    color: var(--title-text-color);
+}
+
+.logo-marg {
+    margin-bottom: 20px;
+}

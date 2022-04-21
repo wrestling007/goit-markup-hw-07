@@ -1,0 +1,19 @@
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--btn-bg);
+    margin-bottom: 30px;
+}
+
+.card-link:hover,
+.card-link:focus {
+    color: var(--accent-color);
+}
+
+.card-item:hover .card-list-icon,
+.card-item:focus .card-list-icon {
+    fill: var(--accent-color);
+}

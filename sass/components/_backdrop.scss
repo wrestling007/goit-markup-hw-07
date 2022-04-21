@@ -1,0 +1,32 @@
+.backdrop {
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: opacity var(--transition), visibility var(--transition);
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(2);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 528px;
+    width: 100%;
+    min-height: 580px;
+    background-color: var(--white-color);
+    transition: transform var(--transition), opacity var(--transition);
+    padding: 40px;
+}

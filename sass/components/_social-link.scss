@@ -1,0 +1,21 @@
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--svg-color);
+    background-color: var(--white-rgba);
+    transition: background-color var(--transition), color var(--transition);
+
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}

@@ -1,0 +1,29 @@
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    color: var(--svg-color);
+    transition: color var(--transition);
+}
+
+.clients-list {
+    --card-item: 6;
+}
+
+.card-client-list {
+    display: flex;
+    flex-basis: calc((100% - 6 * 30px) / 6);
+    justify-content: center;
+}
+
+.card-item:hover .card-client-icon,
+.card-item:focus .card-client-icon {
+    fill: var(--accent-color);
+}
+
+.card-client-icon {
+    fill: currentColor;
+}

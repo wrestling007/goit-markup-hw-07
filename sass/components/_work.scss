@@ -1,0 +1,21 @@
+.work-item-overley {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-weight: 700;
+    padding: 27px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background: var(--work-overlay-bg)
+}
+
+.work-item {
+    position: relative;
+}
+.work {
+    padding-top: 0px;
+    --card-item: 3;
+}
