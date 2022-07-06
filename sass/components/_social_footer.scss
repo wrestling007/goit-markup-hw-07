@@ -19,14 +19,14 @@
     justify-content: center;
     fill: #fff;
     background-color: rgba(255, 255, 255, 0.1);
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+            fill: white;
+        }
 }
 
 .footer .social-link {
     color: var(--white-color);
 }
 
-.social-footer-item:hover,
-.social-footer-item:focus {
-    background-color: var(--accent-color);
-    fill: white;
-}

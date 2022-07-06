@@ -6,14 +6,12 @@
     border-radius: 4px;
     background-color: var(--btn-bg);
     margin-bottom: 30px;
+
+&:hover .card-list-icon,
+&:focus .card-list-icon {
+        fill: var(--accent-color);
+    }
 }
 
-.card-link:hover,
-.card-link:focus {
-    color: var(--accent-color);
-}
 
-.card-item:hover .card-list-icon,
-.card-item:focus .card-list-icon {
-    fill: var(--accent-color);
-}
+

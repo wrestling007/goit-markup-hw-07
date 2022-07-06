@@ -1,16 +1,16 @@
 .address-link {
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--transition);
+    &:hover,
+    &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .address-link[target='_blank'] {
     color: var(--white-color);
 }
 
-.address-link:hover,
-.address-link:focus {
-    color: var(--accent-color);
-}
 .address-marg:not(:last-child) {
     margin-bottom: 8px;
 }

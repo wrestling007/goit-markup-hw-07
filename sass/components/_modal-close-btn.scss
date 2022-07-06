@@ -13,19 +13,20 @@
     padding: 0;
     cursor: pointer;
     transition: border var(--transition);
+    &:hover,
+        &:focus {
+            border: 1px solid var(--accent-color);
+        }
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    border: 1px solid var(--accent-color);
-}
+
 
 .modal-close-icon {
     transition: fill var(--transition);
+    .modal-close-btn:hover &,
+        .modal-close-btn:focus & {
+            fill: var(--accent-color);
+    
+        }
 }
 
-.modal-close-btn:hover .modal-close-icon,
-.modal-close-btn:focus .modal-close-icon {
-    fill: var(--accent-color);
-
-}

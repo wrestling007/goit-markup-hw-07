@@ -12,6 +12,10 @@
     overflow: auto;
     transform: translateY(100%);
     transition: transform var(--transition);
+    .portfolio-link:hover &,
+        .portfolio-link:focus & {
+            transform: translateY(0%);
+        }
 }
 
 .portfolio-item-img-wraper {
@@ -19,7 +23,3 @@
     overflow: hidden;
 }
 
-.portfolio-link:hover .overlay,
-.portfolio-link:focus .overlay {
-    transform: translateY(0%);
-}

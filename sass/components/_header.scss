@@ -68,12 +68,11 @@
     padding-top: 32px;
     padding-bottom: 32px;
     transition: color var(--transition);
-}
 
-
-.header-link:hover,
-.header-link:focus {
+&:hover,
+&:focus {
     color: var(--accent-color);
+}
 }
 
 .site-nav .current {

@@ -7,6 +7,10 @@
     border-radius: 4px;
     color: var(--svg-color);
     transition: color var(--transition);
+    &:hover,
+       &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .clients-list {
@@ -19,11 +23,12 @@
     justify-content: center;
 }
 
-.card-item:hover .card-client-icon,
-.card-item:focus .card-client-icon {
-    fill: var(--accent-color);
-}
+
 
 .card-client-icon {
     fill: currentColor;
+    .card-item:hover &,
+        .card-item:focus & {
+            fill: var(--accent-color);
+        }
 }

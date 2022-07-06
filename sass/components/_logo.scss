@@ -17,10 +17,18 @@
     color: var(--accent-color);
 }
 
-.logo-header {
+.logo__header {
     color: var(--title-text-color);
 }
 
 .logo-marg {
     margin-bottom: 20px;
+}
+.logo__footer {
+    color: var(--white-color);
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+    display: inline-block;
 }

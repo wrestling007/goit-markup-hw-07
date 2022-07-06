@@ -1,26 +1,24 @@
-.person-item {
+.person {
+    background: var(--btn-bg);
+}
+.person__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
-.person-title,
-.person-text {
+.person__title,
+.person__text {
     font-size: 16px;
     line-height: calc(19 / 16);
     margin-bottom: 16px;
 }
 
-.person-title {
+.person__title {
     font-weight: 500;
     margin-bottom: 10px;
 }
-
-.person {
-    background: var(--btn-bg);
-}
-
-.person-wraper {
+.person__wraper {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;

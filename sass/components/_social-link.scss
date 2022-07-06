@@ -12,10 +12,9 @@
     color: var(--svg-color);
     background-color: var(--white-rgba);
     transition: background-color var(--transition), color var(--transition);
-
-}
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-color);
-    color: var(--white-color);
+&:hover,
+&:focus {
+        background-color: var(--accent-color);
+        color: var(--white-color);
+    }
 }
