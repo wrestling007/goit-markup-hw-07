@@ -1,4 +1,4 @@
-.card-item {
+.card__item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,8 +7,8 @@
     background-color: var(--btn-bg);
     margin-bottom: 30px;
 
-&:hover .card-list-icon,
-&:focus .card-list-icon {
+&:hover .card__list-icon,
+&:focus .card__list-icon {
         fill: var(--accent-color);
     }
 }

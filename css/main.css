@@ -358,8 +358,7 @@ body {
           justify-content: center;
   /* margin: auto; */
 }
-
-.social-footer:not(:last-child) {
+.socials-footer:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -518,7 +517,7 @@ body {
   margin-left: 10px;
 }
 
-.card-set {
+.card__set {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -528,14 +527,14 @@ body {
   margin-top: -30px;
 }
 
-.card-set__item {
+.card__set-item {
   margin-left: 30px;
   margin-top: 30px;
   -ms-flex-preferred-size: calc(100% / var(--card-item) - 30px);
       flex-basis: calc(100% / var(--card-item) - 30px);
 }
 
-.card-item {
+.card__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -550,7 +549,7 @@ body {
   background-color: var(--btn-bg);
   margin-bottom: 30px;
 }
-.card-item:hover .card-list-icon, .card-item:focus .card-list-icon {
+.card__item:hover .card__list-icon, .card__item:focus .card__list-icon {
   fill: var(--accent-color);
 }
 
@@ -648,7 +647,7 @@ body {
   padding-right: 32px;
 }
 
-.card-link {
+.card__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -665,7 +664,7 @@ body {
   -webkit-transition: color var(--transition);
   transition: color var(--transition);
 }
-.card-link:hover, .card-link:focus {
+.card__link:hover, .card__link:focus {
   color: var(--accent-color);
 }
 
@@ -673,7 +672,7 @@ body {
   --card-item: 6;
 }
 
-.card-client-list {
+.card__client-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -684,10 +683,10 @@ body {
           justify-content: center;
 }
 
-.card-client-icon {
+.card__client-icon {
   fill: currentColor;
 }
-.card-item:hover .card-client-icon, .card-item:focus .card-client-icon {
+.card-item:hover .card__client-icon, .card-item:focus .card__client-icon {
   fill: var(--accent-color);
 }
 
@@ -751,7 +750,7 @@ body {
   margin-left: 30px;
 }
 
-.portfolio-card-wraper {
+.portfolio__card-wraper {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
@@ -794,24 +793,24 @@ body {
   transition: transform var(--transition);
   transition: transform var(--transition), -webkit-transform var(--transition);
 }
-.portfolio-link:hover .overlay, .portfolio-link:focus .overlay {
+.portfolio__link:hover .overlay, .portfolio__link:focus .overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
 
-.portfolio-item-img-wraper {
+.portfolio__item-img-wraper {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-link {
+.portfolio__link {
   display: block;
   -webkit-transition: -webkit-box-shadow var(--transition);
   transition: -webkit-box-shadow var(--transition);
   transition: box-shadow var(--transition);
   transition: box-shadow var(--transition), -webkit-box-shadow var(--transition);
 }
-.portfolio-link:hover, .portfolio-link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
           box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
@@ -898,7 +897,7 @@ body {
   fill: var(--accent-color);
 }
 
-.contact-form-massage {
+.contact-form__massage {
   width: 100%;
   height: 120px;
   margin-top: 4px;
@@ -909,37 +908,37 @@ body {
   -webkit-transition: border-color var(--transition);
   transition: border-color var(--transition);
 }
-.contact-form-massage:focus, .contact-form-massage:hover {
+.contact-form__massage:focus, .contact-form__massage:hover {
   border-color: var(--accent-color);
   outline: none;
 }
-.contact-form-massage::-webkit-input-placeholder {
+.contact-form__massage::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.contact-form-massage::-moz-placeholder {
+.contact-form__massage::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.contact-form-massage:-ms-input-placeholder {
+.contact-form__massage:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.contact-form-massage::-ms-input-placeholder {
+.contact-form__massage::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-.contact-form-massage::placeholder {
+.contact-form__massage::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.contact-form-checkbox-wrapper {
+.contact-form__checkbox-wrapper {
   margin-bottom: 30px;
 }
 
-.contact-form-checkbox:checked + .contact-form-checkbox-label::before {
+.contact-form__checkbox:checked + .contact-form__checkbox-label::before {
   background-image: url(../images/icon_check.svg);
   background-position: center;
   border-color: var(--accent-color);
 }
 
-.contact-form-checkbox-label {
+.contact-form__checkbox-label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -950,11 +949,11 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.contact-form-checkbox-label:focus + .contact-form-checkbox-label::before {
+.contact-form__checkbox-label:focus + .contact-form__checkbox-label::before {
   border-color: var(--accent-color);
   outline: none;
 }
-.contact-form-checkbox-label::before {
+.contact-form__checkbox-label::before {
   margin-right: 10px;
   content: "";
   display: inline-block;
@@ -966,13 +965,13 @@ body {
   transition: border-color var(--transition);
 }
 
-.contact-form-submit-btn {
+.contact-form__submit-btn {
   padding: 10px 56px;
   max-width: 200px;
   margin: 0 auto;
   display: block;
 }
-.contact-form-submit-btn:focus, .contact-form-submit-btn:hover {
+.contact-form__submit-btn:focus, .contact-form__submit-btn:hover {
   background-color: #188CE8;
   -webkit-transition: background-color var(--transition);
   transition: background-color var(--transition);
@@ -985,7 +984,7 @@ body {
   line-height: 1.16;
 }
 
-.contact-form-input-wrapper {
+.contact-form__input-wrapper {
   margin-top: 4px;
   position: relative;
   display: block;

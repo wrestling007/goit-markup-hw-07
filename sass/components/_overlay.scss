@@ -12,13 +12,13 @@
     overflow: auto;
     transform: translateY(100%);
     transition: transform var(--transition);
-    .portfolio-link:hover &,
-        .portfolio-link:focus & {
+    .portfolio__link:hover &,
+        .portfolio__link:focus & {
             transform: translateY(0%);
         }
 }
 
-.portfolio-item-img-wraper {
+.portfolio__item-img-wraper {
     position: relative;
     overflow: hidden;
 }

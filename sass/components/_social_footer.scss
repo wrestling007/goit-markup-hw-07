@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     /* margin: auto; */
+&:not(:last-child) {
+        margin-right: 10px;
+    }    
 }
 
 
 
-.social-footer:not(:last-child) {
-    margin-right: 10px;
-}
+
 
 .social-footer-item {
     width: 44px;

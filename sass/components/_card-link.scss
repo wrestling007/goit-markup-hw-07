@@ -1,4 +1,4 @@
-.card-link {
+.card__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
     --card-item: 6;
 }
 
-.card-client-list {
+.card__client-list {
     display: flex;
     flex-basis: calc((100% - 6 * 30px) / 6);
     justify-content: center;
@@ -25,7 +25,7 @@
 
 
 
-.card-client-icon {
+.card__client-icon {
     fill: currentColor;
     .card-item:hover &,
         .card-item:focus & {
